@@ -1,4 +1,4 @@
-# Lasles VPN
+# Title
 Web developer: Konstantin Shishmaryov
 
 Designer: 
@@ -18,6 +18,6 @@ Demo:
 Tehnologies:
 Languages: HTML5, CSS3, Javascript
 
-Libraries: jQuery, slick
+Libraries: jQuery, animate.css
 
 Approach: mobile first
