@@ -1,19 +1,37 @@
 .advantages {
 
   &__title {
-    font-size: 40px;
-    font-weight: 900;
-    color: #3A3A3A;
     margin-top: 95px;
     margin-bottom: 33px;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    color: #3A3A3A;
+
+    @media (min-width: 1140px) {
+      text-align: left;
+    }
   }
 
   &__blocks {
     display: grid;
-    grid-gap: 30px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     grid-column: auto;
+    grid-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+    @media(min-width: 768px) {
+      grid-template-columns: 555px;
+      margin-left: calc(50% - 273px);
+    }
+
+
+    @media (min-width: 1140px) {
+      grid-column: auto;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      margin-left: 0;
+    }
   }
 
   &__item {

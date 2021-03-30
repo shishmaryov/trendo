@@ -1,8 +1,14 @@
 .advantage {
+  width: 100%;
   background-color: #F8F8F8;
   border-radius: 10px;
 
+  @media(min-width: 768px) {
+    width: 555px;
+  }
+
   &--telegram {
+    padding-bottom: 125px;
     background: linear-gradient(90deg, #201D54 0%, #4C4979 101.17%);
 
     .advantage__text {
@@ -18,8 +24,8 @@
       &::after {
         content: url("../../img/icons/arrow.svg");
         position: absolute;
-        bottom: -50px;
         right: 300px;
+        bottom: -50px;
 
       }
     }
@@ -44,10 +50,15 @@
   }
 
   &__img {
-    width: 555px;
-    height: 270px;
+    width: 100%;
+    height: auto;
     border-radius: 15px;
     object-fit: fill;
+
+    @media(min-width: 768px) {
+      width: 555px;
+      height: 270px;
+    }
   }
 
   &__text-block {

@@ -1,7 +1,10 @@
 .soon {
-  display: flex;
-  justify-content: space-between;
   margin-top: 30px;
+
+  @media(min-width: 1140px) {
+    display: flex;
+    justify-content: space-between;
+  }
 
   .flex {
     display: flex;
@@ -9,18 +12,37 @@
   }
 
   &__item {
-    width: 555px;
-    height: 480px;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
     background-color: #F8F8F8;
     border-radius: 10px;
     border-radius: 15px;
+
+    @media(min-width: 768px) {
+      width: 555px;
+      height: 480px;
+    }
+
+    @media(min-width: 1140px) {
+      margin-right: 0;
+      margin-bottom: 0;
+      margin-left: 0;
+    }
   }
 
   &__img {
-    width: 555px;
-    height: 270px;
+    width: 100%;
+    height: auto;
     border-radius: 15px;
     object-fit: fill;
+
+    @media(min-width: 768px) {
+      width: 555px;
+      height: 270px;
+    }
   }
 
   &__text-block {
@@ -28,11 +50,11 @@
   }
 
   &__title {
-    font-size: 33px;
-    font-weight: 900;
-    color: #262626;
     margin-top: 30px;
     margin-bottom: 25px;
+    font-weight: 900;
+    font-size: 33px;
+    color: #262626;
 
   }
 
@@ -42,12 +64,12 @@
 
   &__text {
     margin-top: 30px;
+    margin-top: 0;
+    margin-right: 50px;
+    margin-bottom: 0;
+    margin-left: 15px;
     font-weight: 400;
     font-size: 20px;
     color: #262626;
-    margin-right: 50px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 15px;
   }
 }

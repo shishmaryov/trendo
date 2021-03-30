@@ -5,17 +5,26 @@
     margin-bottom: 45px;
     font-weight: 900;
     font-size: 40px;
+    text-align: center;
+
+    @media (min-width: 768px) {
+      text-align: left;
+    }
   }
 
   &__list {
     display: grid;
     grid-gap: 30px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
     list-style: none;
+
+    @media(min-width: 768px) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
 
   }
 
@@ -24,9 +33,14 @@
     padding-top: 30px;
     padding-right: 30px;
     padding-left: 30px;
+    text-align: center;
     background-color: #F8F8F8;
     border: 1px solid #FFD610;
     border-radius: 10px;
+
+    @media (min-width: 768px) {
+      text-align: left;
+    }
   }
 
   &__icon {
