@@ -3842,6 +3842,13 @@ img {
     font-size: 20px;
     color: #262626;
     margin-right: 30px; }
+  .advantage__link {
+    color: #262626;
+    text-decoration: none; }
+    .advantage__link:hover {
+      text-decoration: underline; }
+    .advantage__link:active {
+      text-decoration: underline; }
   .advantage__icon {
     width: 48px;
     height: 48px;
@@ -3935,11 +3942,14 @@ img {
   margin-top: 75px;
   margin-right: auto;
   margin-left: auto;
+  background: url("../img/content-images/lottery.jpg");
   background-color: #F8F8F8;
-  background-color: #FFD610; }
+  background-color: #FFD610;
+  background-repeat: no-repeat;
+  background-size: cover; }
   @media (min-width: 768px) {
     .lottery {
-      background-color: #FFFFFF; } }
+      background: #FFFFFF; } }
   .lottery__title {
     margin-top: 0;
     margin-right: 30px;
@@ -4017,7 +4027,7 @@ img {
 
 .club__title {
   margin-top: 75px;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
   font-weight: 700;
   font-size: 40px;
   text-align: center;
@@ -4028,6 +4038,13 @@ img {
       font-size: 40px; } }
   .club__title--extrabold {
     font-weight: 900; }
+
+.club__text {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 45px; }
 
 .club__list {
   margin-top: 0;
@@ -4222,13 +4239,6 @@ img {
       -webkit-animation-duration: 1s;
               animation-duration: 1s; }
     .faq__open-6--active {
-      -webkit-transform: rotate(180deg);
-              transform: rotate(180deg);
-      -webkit-animation-name: spin;
-              animation-name: spin;
-      -webkit-animation-duration: 1s;
-              animation-duration: 1s; }
-    .faq__open-7--active {
       -webkit-transform: rotate(180deg);
               transform: rotate(180deg);
       -webkit-animation-name: spin;

@@ -99,18 +99,6 @@
         animation-duration: 1s;
       }
     }
-
-    &-7 {
-      &--active {
-        transform: rotate(180deg);
-        animation-name: spin;
-        animation-duration: 1s;
-      }
-    }
-
-
-
-
   }
   &__answer {
     display: none;

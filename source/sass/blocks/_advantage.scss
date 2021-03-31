@@ -104,6 +104,19 @@
     margin-right: 30px;
   }
 
+  &__link {
+    color: #262626;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:active {
+      text-decoration: underline;
+    }
+  }
+
   &__icon {
     width: 48px;
     height: 48px;

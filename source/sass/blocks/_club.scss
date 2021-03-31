@@ -2,7 +2,7 @@
 
   &__title {
     margin-top: 75px;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
     font-weight: 700;
     font-size: 40px;
     text-align: center;
@@ -16,6 +16,14 @@
     &--extrabold {
       font-weight: 900;
     }
+  }
+
+  &__text {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 45px;
   }
 
   &__list {
