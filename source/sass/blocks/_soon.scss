@@ -8,7 +8,11 @@
 
   .flex {
     display: flex;
-    align-items: center;
+    align-items: top;
+
+    @media (min-width: 768px) {
+      align-items: center;
+    }
   }
 
   &__item {
@@ -60,7 +64,8 @@
   }
 
   &__icon {
-
+    width: 48px;
+    height: 48px;
   }
 
   &__text {

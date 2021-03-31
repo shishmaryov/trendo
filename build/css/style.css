@@ -453,10 +453,10 @@ img {
       position: absolute;
       top: 0;
       left: 0;
+      z-index: 3;
       width: 100%;
       height: 100%;
-      background-color: rgba(0, 0, 0, 0.73);
-      z-index: 3; }
+      background-color: rgba(0, 0, 0, 0.73); }
 
 .container {
   max-width: 320px;
@@ -580,8 +580,7 @@ img {
     @media (min-width: 1024px) {
       .promo__img {
         width: 402px;
-        height: 256px;
-        border-radius: 15px; } }
+        height: 256px; } }
 
 .advantages__title {
   margin-top: 95px;
@@ -626,20 +625,20 @@ img {
       position: relative;
       margin-top: 125px;
       margin-right: 40px;
+      margin-bottom: 80px;
       margin-left: 40px;
       font-weight: 700;
       font-size: 28px;
       text-align: center;
-      color: #FFFFFF;
-      margin-bottom: 80px; }
+      color: #FFFFFF; }
       @media (min-width: 768px) {
         .advantage--telegram .advantage__text {
           margin-bottom: 30px; } }
       .advantage--telegram .advantage__text::after {
         content: url("../img/icons/arrow.svg");
         position: absolute;
-        left: -10px;
-        bottom: -80px; }
+        bottom: -80px;
+        left: -10px; }
         @media (min-width: 768px) {
           .advantage--telegram .advantage__text::after {
             right: 310px;
@@ -651,6 +650,7 @@ img {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
+      align-items: center;
       width: 170px;
       height: 48px;
       margin-right: auto;
@@ -660,6 +660,7 @@ img {
       color: #FFFFFF;
       text-decoration: none; }
     .advantage--telegram .advantage__icon {
+      margin-top: 0;
       margin-right: 15px;
       margin-left: 0; }
   .advantage__img {
@@ -676,15 +677,24 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    -webkit-box-align: top;
+        -ms-flex-align: top;
+            align-items: top; }
+    @media (min-width: 768px) {
+      .advantage__text-block {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; } }
   .advantage__text {
     margin-top: 30px;
+    margin-bottom: 30px;
     font-weight: 400;
     font-size: 20px;
     color: #262626; }
   .advantage__icon {
+    width: 48px;
+    height: 48px;
+    margin-top: 30px;
     margin-right: 15px;
     margin-left: 30px; }
 
@@ -702,9 +712,14 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    -webkit-box-align: top;
+        -ms-flex-align: top;
+            align-items: top; }
+    @media (min-width: 768px) {
+      .soon .flex {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; } }
   .soon__item {
     width: 100%;
     height: auto;
@@ -742,6 +757,9 @@ img {
     font-weight: 900;
     font-size: 33px;
     color: #262626; }
+  .soon__icon {
+    width: 48px;
+    height: 48px; }
   .soon__text {
     margin-top: 30px;
     margin-top: 0;
@@ -863,10 +881,14 @@ img {
   margin-bottom: 75px;
   padding-bottom: 33px;
   background-color: #F8F8F8;
-  border-radius: 10px; }
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto; }
   @media (min-width: 1140px) {
     .club__item {
-      padding-bottom: 0; } }
+      padding-bottom: 0;
+      margin-left: 0;
+      margin-right: 0; } }
   .club__item--1 .club__description--2 {
     margin-bottom: 130px; }
   .club__item--2 .club__description--3 {
@@ -975,70 +997,72 @@ img {
     cursor: pointer; }
   .faq__open {
     margin-right: 30px;
-    margin-left: 30px; }
+    margin-left: 30px;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
     .faq__open-1--active {
-      -webkit-transform: rotate(180deg);
-              transform: rotate(180deg);
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s;
       -webkit-animation-name: spin;
               animation-name: spin;
-      -webkit-animation-duration: 1s;
-              animation-duration: 1s; }
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg); }
     .faq__open-2--active {
-      -webkit-transform: rotate(180deg);
-              transform: rotate(180deg);
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s;
       -webkit-animation-name: spin;
               animation-name: spin;
-      -webkit-animation-duration: 1s;
-              animation-duration: 1s; }
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg); }
     .faq__open-3--active {
-      -webkit-transform: rotate(180deg);
-              transform: rotate(180deg);
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s;
       -webkit-animation-name: spin;
               animation-name: spin;
-      -webkit-animation-duration: 1s;
-              animation-duration: 1s; }
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg); }
     .faq__open-4--active {
-      -webkit-transform: rotate(180deg);
-              transform: rotate(180deg);
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s;
       -webkit-animation-name: spin;
               animation-name: spin;
-      -webkit-animation-duration: 1s;
-              animation-duration: 1s; }
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg); }
     .faq__open-5--active {
-      -webkit-transform: rotate(180deg);
-              transform: rotate(180deg);
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s;
       -webkit-animation-name: spin;
               animation-name: spin;
-      -webkit-animation-duration: 1s;
-              animation-duration: 1s; }
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg); }
     .faq__open-6--active {
-      -webkit-transform: rotate(180deg);
-              transform: rotate(180deg);
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s;
       -webkit-animation-name: spin;
               animation-name: spin;
-      -webkit-animation-duration: 1s;
-              animation-duration: 1s; }
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg); }
     .faq__open-7--active {
-      -webkit-transform: rotate(180deg);
-              transform: rotate(180deg);
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s;
       -webkit-animation-name: spin;
               animation-name: spin;
-      -webkit-animation-duration: 1s;
-              animation-duration: 1s; }
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg); }
     .faq__open--active {
-      -webkit-transform: rotate(180deg);
-              transform: rotate(180deg);
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s;
       -webkit-animation-name: spin;
               animation-name: spin;
-      -webkit-animation-duration: 1s;
-              animation-duration: 1s; }
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg); }
     .faq__open--close {
-      -webkit-transform: rotate(360deg);
-              transform: rotate(360deg);
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s;
       -webkit-animation-name: spin-end;
               animation-name: spin-end;
-      -webkit-animation-duration: 1s;
-              animation-duration: 1s; }
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg); }
   .faq__answer {
     display: none; }
     .faq__answer--active {
