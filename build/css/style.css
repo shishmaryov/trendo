@@ -444,13 +444,6 @@ img {
   src: url("../fonts/CeraPro-Black.woff2") format("woff2"), url("../fonts/CeraPro-Black.woff") format("woff");
   font-display: swap; }
 
-@font-face {
-  font-weight: 400;
-  font-family: "Cera Pro";
-  font-style: normal;
-  src: url("../../fonts/CeraPro-Regular.woff") format("woff2"), url("../../fonts/R") format("woff");
-  font-display: swap; }
-
 .index-page {
   font-family: "Cera Pro", sans-serif; }
 
@@ -596,7 +589,7 @@ img {
       text-align: center;
       color: #FFFFFF; }
       .advantage--telegram .advantage__text::after {
-        content: url("../../img/icons/arrow.svg");
+        content: url("../img/icons/arrow.svg");
         position: absolute;
         right: 300px;
         bottom: -50px; }
