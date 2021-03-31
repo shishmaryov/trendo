@@ -58,6 +58,14 @@
     border: none;
     border-radius: 100px;
 
+    &:hover {
+      background-color: #2B276F;
+    }
+
+    &:active {
+      color: #CAC9DB;
+    }
+
     &::after {
       content: url("../img/icons/button-arrow.svg");
       position: absolute;
@@ -109,18 +117,15 @@
 
   &__img {
     z-index: 2;
-    width: 100%;
-    height: auto;
+    width: 300px;
+    height: 194px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.1);
 
-
-
-    @media (min-width: 1024px) {
+    @media(min-width: 768px) {
       width: 402px;
       height: 256px;
     }

@@ -28,22 +28,27 @@
 
   &__item {
     width: 263px;
+    margin-right: auto;
     margin-bottom: 75px;
+    margin-left: auto;
     padding-bottom: 33px;
     background-color: #F8F8F8;
     border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
 
     @media(min-width: 1140px) {
-      padding-bottom: 0;
-      margin-left: 0;
       margin-right: 0;
+      margin-left: 0;
+      padding-bottom: 0;
     }
 
     &--1 {
       .club__description--2 {
-        margin-bottom: 130px;
+        margin-bottom: 50px;
+
+        @media (min-width: 768px) {
+          margin-bottom: 130px;
+        }
+
       }
     }
 
@@ -66,11 +71,12 @@
         content:"Хит";
         position: absolute;
         top: 20px;
-        left: 24px;
+        right: 24px;
         padding: 1px;
         font-weight: 400;
         font-size: 16px;
         color: #FFFFFF;
+        text-transform: uppercase;
         background-color: #04E36B;
       }
     }
@@ -88,11 +94,12 @@
         content:"Акция";
         position: absolute;
         top: 20px;
-        left: 24px;
+        right: 24px;
         padding: 1px;
         font-weight: 400;
         font-size: 16px;
         color: #FFFFFF;
+        text-transform: uppercase;
         background-color: #FF3B3B;
       }
     }
@@ -100,7 +107,7 @@
 
   &__description {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 26px;
     color: #201D54;
 
     &--1 {
@@ -117,12 +124,14 @@
       margin-bottom: 53px;
       margin-left: 24px;
       font-weight: 400;
-      font-size: 22px;
+      font-size: 18px;
       text-decoration: line-through;
     }
 
     &--medium {
       font-weight: 500;
+      font-size: 20px;
+
     }
   }
 
