@@ -19,12 +19,3 @@ img {
     transform: rotate(180deg);
   }
 }
-
-@keyframes spin-end {
-  0% {
-    transform: rotate(180deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}

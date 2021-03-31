@@ -42,68 +42,63 @@
 
     &-1 {
       &--active {
-        animation-duration: 1s;
         animation-name: spin;
         transform: rotate(180deg);
+        animation-duration: 1s;
+      }
     }
-  }
 
     &-2 {
       &--active {
-        animation-duration: 1s;
         animation-name: spin;
         transform: rotate(180deg);
+        animation-duration: 1s;
+      }
     }
-  }
 
     &-3 {
       &--active {
-        animation-duration: 1s;
         animation-name: spin;
         transform: rotate(180deg);
+        animation-duration: 1s;
+      }
     }
-  }
 
     &-4 {
       &--active {
-        animation-duration: 1s;
         animation-name: spin;
         transform: rotate(180deg);
+        animation-duration: 1s;
+      }
     }
-  }
+
     &-5 {
       &--active {
-        animation-duration: 1s;
         animation-name: spin;
         transform: rotate(180deg);
+        animation-duration: 1s;
+      }
     }
-  }
+
     &-6 {
       &--active {
-        animation-duration: 1s;
         animation-name: spin;
         transform: rotate(180deg);
+        animation-duration: 1s;
+      }
     }
-  }
+
     &-7 {
       &--active {
-        animation-duration: 1s;
         animation-name: spin;
         transform: rotate(180deg);
+        animation-duration: 1s;
+      }
     }
-  }
 
 
-    &--active {
-      animation-duration: 1s;
-      animation-name: spin;
-      transform: rotate(180deg);
-  }
-    &--close {
-      animation-duration: 1s;
-      animation-name: spin-end;
-      transform: rotate(360deg);
-    }
+
+
   }
   &__answer {
     display: none;

@@ -400,22 +400,6 @@ img {
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg); } }
 
-@-webkit-keyframes spin-end {
-  0% {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
-
-@keyframes spin-end {
-  0% {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
-
 @font-face {
   font-weight: 400;
   font-family: "Cera Pro";
@@ -1001,68 +985,54 @@ img {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg); }
     .faq__open-1--active {
-      -webkit-animation-duration: 1s;
-              animation-duration: 1s;
       -webkit-animation-name: spin;
               animation-name: spin;
       -webkit-transform: rotate(180deg);
-              transform: rotate(180deg); }
+              transform: rotate(180deg);
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s; }
     .faq__open-2--active {
-      -webkit-animation-duration: 1s;
-              animation-duration: 1s;
       -webkit-animation-name: spin;
               animation-name: spin;
       -webkit-transform: rotate(180deg);
-              transform: rotate(180deg); }
+              transform: rotate(180deg);
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s; }
     .faq__open-3--active {
-      -webkit-animation-duration: 1s;
-              animation-duration: 1s;
       -webkit-animation-name: spin;
               animation-name: spin;
       -webkit-transform: rotate(180deg);
-              transform: rotate(180deg); }
+              transform: rotate(180deg);
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s; }
     .faq__open-4--active {
-      -webkit-animation-duration: 1s;
-              animation-duration: 1s;
       -webkit-animation-name: spin;
               animation-name: spin;
       -webkit-transform: rotate(180deg);
-              transform: rotate(180deg); }
+              transform: rotate(180deg);
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s; }
     .faq__open-5--active {
-      -webkit-animation-duration: 1s;
-              animation-duration: 1s;
       -webkit-animation-name: spin;
               animation-name: spin;
       -webkit-transform: rotate(180deg);
-              transform: rotate(180deg); }
+              transform: rotate(180deg);
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s; }
     .faq__open-6--active {
-      -webkit-animation-duration: 1s;
-              animation-duration: 1s;
       -webkit-animation-name: spin;
               animation-name: spin;
       -webkit-transform: rotate(180deg);
-              transform: rotate(180deg); }
+              transform: rotate(180deg);
+      -webkit-animation-duration: 1s;
+              animation-duration: 1s; }
     .faq__open-7--active {
-      -webkit-animation-duration: 1s;
-              animation-duration: 1s;
       -webkit-animation-name: spin;
               animation-name: spin;
       -webkit-transform: rotate(180deg);
-              transform: rotate(180deg); }
-    .faq__open--active {
+              transform: rotate(180deg);
       -webkit-animation-duration: 1s;
-              animation-duration: 1s;
-      -webkit-animation-name: spin;
-              animation-name: spin;
-      -webkit-transform: rotate(180deg);
-              transform: rotate(180deg); }
-    .faq__open--close {
-      -webkit-animation-duration: 1s;
-              animation-duration: 1s;
-      -webkit-animation-name: spin-end;
-              animation-name: spin-end;
-      -webkit-transform: rotate(360deg);
-              transform: rotate(360deg); }
+              animation-duration: 1s; }
   .faq__answer {
     display: none; }
     .faq__answer--active {
