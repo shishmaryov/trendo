@@ -35,7 +35,7 @@
     font-size: 40px;
     font-size: 30px;
     text-transform: uppercase;
-    background: linear-gradient(90deg, #E30D42 1%, #444242 100%);
+    background: linear-gradient(90deg, #E30D42 1%, #444242 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -92,36 +92,39 @@
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+    background-image: url("../img/icons/card-bg.svg");
+    background-position: 0 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
 
     &::before {
 
-      @media (min-width: 1024px) {
+
         content: '';
         position: absolute;
-        top: -48.5px;
+        top: -35px;
         left: -28.5px;
         z-index: -1;
-        width: 355px;
-        height: 355px;
+        width: 250px;
+        height: 250px;
         background-color: #FFD610;
         border-radius: 100%;
       }
-    }
 
     &::after {
 
-      @media (min-width: 1024px) {
+
         content: '';
         position: absolute;
-        top: -48.5px;
+        top: -35px;
         right: -33px;
         z-index: -1;
-        width: 355px;
-        height: 355px;
+        width: 250px;
+        height: 250px;
         background-color: #F7EBB3;
         border-radius: 100%;
       }
-    }
   }
 
   &__img {
