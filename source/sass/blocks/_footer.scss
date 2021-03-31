@@ -23,13 +23,13 @@
     color: #FFFFFF;
     max-width: 750px;
     text-align: center;
-    display: flex;
     margin-left: auto;
     margin-right: auto;
     font-weight: 400;
     margin-bottom: 25px;
     margin-top: 50px;
     font-size: 16px;
+    text-align: center;
 
     @media(min-width: 768px) {
       font-size: 20px;
@@ -67,5 +67,8 @@
       height: 22px;
       fill: #201D54;
     }
+  }
+  .link {
+    color: #FFFFFF;
   }
 }

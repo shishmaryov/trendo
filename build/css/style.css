@@ -3957,7 +3957,8 @@ img {
   background-color: #F8F8F8;
   background-color: #FFD610;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-position: -100px 0px; }
   @media (min-width: 768px) {
     .lottery {
       background: #FFFFFF; } }
@@ -3985,12 +3986,14 @@ img {
     .lottery__title--extrabold {
       font-weight: 900; }
   .lottery__img {
-    width: 30%;
-    height: auto; }
+    display: none; }
     @media (min-width: 1024px) {
       .lottery__img {
         width: 722px;
-        height: 320px; } }
+        height: 320px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; } }
 
 .business__title {
   margin-top: 75px;
@@ -4314,15 +4317,13 @@ img {
     color: #FFFFFF;
     max-width: 750px;
     text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     margin-left: auto;
     margin-right: auto;
     font-weight: 400;
     margin-bottom: 25px;
     margin-top: 50px;
-    font-size: 16px; }
+    font-size: 16px;
+    text-align: center; }
     @media (min-width: 768px) {
       .footer__text {
         font-size: 20px; } }
@@ -4353,6 +4354,8 @@ img {
       width: 22px;
       height: 22px;
       fill: #201D54; }
+  .footer .link {
+    color: #FFFFFF; }
 
 .popup {
   position: fixed;
