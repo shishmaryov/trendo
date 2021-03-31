@@ -3693,9 +3693,9 @@ img {
     margin-left: auto;
     text-align: center;
     background-image: url("../img/icons/card-bg.svg");
+    background-repeat: no-repeat;
     background-position: 0 0;
-    background-size: 100%;
-    background-repeat: no-repeat; }
+    background-size: 100%; }
     .promo__img-wrapper::before {
       content: '';
       position: absolute;
