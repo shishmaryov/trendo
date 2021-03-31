@@ -1118,7 +1118,7 @@ img {
       fill: #201D54; }
 
 .popup {
-  position: absolute;
+  position: fixed;
   top: calc(50% - 176px);
   left: calc(50% - 317px);
   z-index: 4;
@@ -1139,7 +1139,8 @@ img {
     top: 15px;
     right: 15px;
     width: 14px;
-    height: 14px; }
+    height: 14px;
+    cursor: pointer; }
   .popup__title {
     z-index: 4;
     margin-top: 0;
