@@ -57,6 +57,14 @@
       font-size: 20px;
       color: #FFFFFF;
       text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      &:active {
+        color:  #cac9db;
+      }
     }
 
     .advantage__icon {

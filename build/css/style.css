@@ -651,6 +651,10 @@ img {
       font-size: 20px;
       color: #FFFFFF;
       text-decoration: none; }
+      .advantage--telegram .advantage__link:hover {
+        text-decoration: underline; }
+      .advantage--telegram .advantage__link:active {
+        color: #cac9db; }
     .advantage--telegram .advantage__icon {
       margin-top: 0;
       margin-right: 15px;
