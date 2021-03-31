@@ -66,14 +66,6 @@ $(document).ready(function(){
 	});
 });
 
-$(document).ready(function(){
-	$('.faq__question--7').click(function(){
-		$('.faq__open--7').toggleClass('faq__open-7--active'); return false;
-	});
-});
-
-
-
 
 
 // FAQ answer
@@ -110,11 +102,5 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$('.faq__question--6').click(function(){
 		$('.faq__answer--6').toggleClass('faq__answer--active'); return false;
-	});
-});
-
-$(document).ready(function(){
-	$('.faq__question--7').click(function(){
-		$('.faq__answer--7').toggleClass('faq__answer--active'); return false;
 	});
 });

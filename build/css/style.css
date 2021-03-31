@@ -3615,7 +3615,10 @@ img {
         -ms-flex-align: center;
             align-items: center;
     padding-top: 130px;
-    padding-bottom: 130px; }
+    padding-bottom: 50px; }
+    @media (min-width: 768px) {
+      .promo .container {
+        padding-bottom: 130px; } }
   .promo__text-block {
     margin-right: auto;
     margin-bottom: 50px;
@@ -3632,11 +3635,15 @@ img {
     margin-bottom: 22px;
     font-weight: 900;
     font-size: 40px;
+    font-size: 30px;
     text-transform: uppercase;
     background: -webkit-gradient(linear, left top, right top, color-stop(1%, #E30D42), to(#444242));
     background: linear-gradient(90deg, #E30D42 1%, #444242 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
+    @media (min-width: 768px) {
+      .promo__title {
+        font-size: 40px; } }
     @media (min-width: 1024px) {
       .promo__title {
         background: -webkit-gradient(linear, left top, right top, color-stop(1%, #E30D42), color-stop(20%, #444242));
@@ -3714,12 +3721,16 @@ img {
         height: 256px; } }
 
 .advantages__title {
-  margin-top: 95px;
   margin-bottom: 33px;
   font-weight: 900;
-  font-size: 40px;
   text-align: center;
-  color: #3A3A3A; }
+  color: #3A3A3A;
+  margin-top: 50px;
+  font-size: 30px; }
+  @media (min-width: 768px) {
+    .advantages__title {
+      margin-top: 95px;
+      font-size: 40px; } }
   @media (min-width: 1140px) {
     .advantages__title {
       text-align: left; } }
@@ -3914,36 +3925,46 @@ img {
         margin-right: 50px; } }
 
 .lottery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   margin-top: 75px;
-  background-color: #F8F8F8;
+  margin-right: auto;
   margin-left: auto;
-  margin-right: auto; }
-  @media (min-width: 1024px) {
+  background-color: #F8F8F8;
+  background-color: #FFD610; }
+  @media (min-width: 768px) {
     .lottery {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; } }
+      background-color: #FFFFFF; } }
   .lottery__title {
+    margin-top: 0;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
-    padding-top: 50px;
+    font-size: 24px;
     text-align: center;
-    margin-right: 30px;
-    margin-left: 30px; }
+    text-align: left; }
+    @media (min-width: 768px) {
+      .lottery__title {
+        font-size: 36px;
+        text-align: center; } }
     @media (min-width: 1024px) {
       .lottery__title {
-        padding-top: 0;
-        text-align: left;
         margin-right: 95px;
-        margin-left: 90px; } }
+        margin-left: 90px;
+        padding-top: 0;
+        text-align: left; } }
     .lottery__title--extrabold {
       font-weight: 900; }
   .lottery__img {
-    width: 100%;
+    width: 30%;
     height: auto; }
     @media (min-width: 1024px) {
       .lottery__img {
@@ -3954,10 +3975,11 @@ img {
   margin-top: 75px;
   margin-bottom: 45px;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center; }
   @media (min-width: 768px) {
     .business__title {
+      font-size: 40px;
       text-align: left; } }
 
 .business__list {
@@ -3999,7 +4021,11 @@ img {
   font-weight: 700;
   font-size: 40px;
   text-align: center;
-  color: #3A3A3A; }
+  color: #3A3A3A;
+  font-size: 30px; }
+  @media (min-width: 768px) {
+    .club__title {
+      font-size: 40px; } }
   .club__title--extrabold {
     font-weight: 900; }
 
@@ -4124,9 +4150,12 @@ img {
     margin-bottom: 30px;
     padding-top: 75px;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     color: #262626; }
+    @media (min-width: 768px) {
+      .faq__title {
+        font-size: 40px; } }
   .faq__item {
     background-color: #FFFFFF;
     border-radius: 10px; }
@@ -4158,52 +4187,52 @@ img {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg); }
     .faq__open-1--active {
-      -webkit-animation-name: spin;
-              animation-name: spin;
       -webkit-transform: rotate(180deg);
               transform: rotate(180deg);
+      -webkit-animation-name: spin;
+              animation-name: spin;
       -webkit-animation-duration: 1s;
               animation-duration: 1s; }
     .faq__open-2--active {
-      -webkit-animation-name: spin;
-              animation-name: spin;
       -webkit-transform: rotate(180deg);
               transform: rotate(180deg);
+      -webkit-animation-name: spin;
+              animation-name: spin;
       -webkit-animation-duration: 1s;
               animation-duration: 1s; }
     .faq__open-3--active {
-      -webkit-animation-name: spin;
-              animation-name: spin;
       -webkit-transform: rotate(180deg);
               transform: rotate(180deg);
+      -webkit-animation-name: spin;
+              animation-name: spin;
       -webkit-animation-duration: 1s;
               animation-duration: 1s; }
     .faq__open-4--active {
-      -webkit-animation-name: spin;
-              animation-name: spin;
       -webkit-transform: rotate(180deg);
               transform: rotate(180deg);
+      -webkit-animation-name: spin;
+              animation-name: spin;
       -webkit-animation-duration: 1s;
               animation-duration: 1s; }
     .faq__open-5--active {
-      -webkit-animation-name: spin;
-              animation-name: spin;
       -webkit-transform: rotate(180deg);
               transform: rotate(180deg);
+      -webkit-animation-name: spin;
+              animation-name: spin;
       -webkit-animation-duration: 1s;
               animation-duration: 1s; }
     .faq__open-6--active {
-      -webkit-animation-name: spin;
-              animation-name: spin;
       -webkit-transform: rotate(180deg);
               transform: rotate(180deg);
+      -webkit-animation-name: spin;
+              animation-name: spin;
       -webkit-animation-duration: 1s;
               animation-duration: 1s; }
     .faq__open-7--active {
-      -webkit-animation-name: spin;
-              animation-name: spin;
       -webkit-transform: rotate(180deg);
               transform: rotate(180deg);
+      -webkit-animation-name: spin;
+              animation-name: spin;
       -webkit-animation-duration: 1s;
               animation-duration: 1s; }
   .faq__answer {
@@ -4246,7 +4275,7 @@ img {
   margin-bottom: 75px; }
 
 .footer {
-  background-color: #0B0D17; }
+  background-color: #3a3a3a; }
   .footer .container {
     padding-bottom: 65px; }
   .footer__title {
@@ -4255,7 +4284,11 @@ img {
     color: #FFFFFF;
     text-align: center;
     margin-top: 0;
-    padding-top: 70px; }
+    padding-top: 70px;
+    font-size: 30px; }
+    @media (min-width: 768px) {
+      .footer__title {
+        font-size: 40px; } }
   .footer__text {
     color: #FFFFFF;
     max-width: 750px;
@@ -4265,10 +4298,13 @@ img {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    font-size: 20px;
     font-weight: 400;
-    margin-top: 25px;
-    margin-bottom: 25px; }
+    margin-bottom: 25px;
+    margin-top: 50px;
+    font-size: 16px; }
+    @media (min-width: 768px) {
+      .footer__text {
+        font-size: 20px; } }
   .footer__button {
     position: relative;
     margin-bottom: 15px;

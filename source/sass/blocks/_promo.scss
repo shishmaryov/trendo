@@ -7,7 +7,11 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 130px;
-    padding-bottom: 130px;
+    padding-bottom: 50px;
+
+    @media(min-width: 768px) {
+      padding-bottom: 130px;
+    }
   }
 
   &__text-block {
@@ -29,10 +33,15 @@
     margin-bottom: 22px;
     font-weight: 900;
     font-size: 40px;
+    font-size: 30px;
     text-transform: uppercase;
     background: linear-gradient(90deg, #E30D42 1%, #444242 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    @media(min-width: 768px) {
+      font-size: 40px;
+    }
 
     @media (min-width: 1024px) {
       background: linear-gradient(90deg, #E30D42 1%, #444242 20%);

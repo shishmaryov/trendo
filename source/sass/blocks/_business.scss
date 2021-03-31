@@ -4,10 +4,11 @@
     margin-top: 75px;
     margin-bottom: 45px;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 
     @media (min-width: 768px) {
+      font-size: 40px;
       text-align: left;
     }
   }
