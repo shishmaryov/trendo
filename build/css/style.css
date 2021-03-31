@@ -1153,10 +1153,9 @@ img {
 .popup {
   position: fixed;
   top: calc(50% - 176px);
-  left: calc(50% - 317px);
   z-index: 4;
   display: none;
-  max-width: 615px;
+  width: 100%;
   margin-top: auto;
   margin-right: auto;
   margin-bottom: auto;
@@ -1164,6 +1163,10 @@ img {
   padding-top: 50px;
   background-color: #FFFFFF;
   border-radius: 10px; }
+  @media (min-width: 768px) {
+    .popup {
+      left: calc(50% - 317px);
+      max-width: 615px; } }
   .popup--active {
     display: block; }
   .popup__close {
