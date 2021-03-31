@@ -20,12 +20,22 @@
       font-size: 28px;
       text-align: center;
       color: #FFFFFF;
+      margin-bottom: 80px;
+
+      @media(min-width: 768px) {
+        margin-bottom: 30px;
+      }
 
       &::after {
         content: url("../img/icons/arrow.svg");
         position: absolute;
-        right: 300px;
-        bottom: -50px;
+        left: -10px;
+        bottom: -80px;
+
+        @media(min-width: 768px) {
+          right: 310px;
+          bottom: -50px;
+        }
 
       }
     }
