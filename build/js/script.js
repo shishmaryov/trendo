@@ -1,3 +1,28 @@
+// Popup
+$(document).ready(function(){
+	$('.button').click(function(){
+		$('.index-page').addClass('index-page--popup-open'); return false;
+	});
+});
+
+$(document).ready(function(){
+	$('.button').click(function(){
+		$('.popup').toggleClass('popup--active'); return false;
+	});
+});
+
+$(document).ready(function(){
+	$('.popup__close').click(function(){
+		$('.popup--active').removeClass('popup--active'); return false;
+	});
+});
+
+$(document).ready(function(){
+	$('.popup__close').click(function(){
+		$('.index-page--popup-open').removeClass('index-page--popup-open'); return false;
+	});
+});
+
 // FAQ open
 $(document).ready(function(){
 	$('.faq__question--1').click(function(){
