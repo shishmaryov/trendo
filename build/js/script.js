@@ -18,6 +18,12 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+	$('.popup__button').click(function(){
+		$('.index-page--popup-open').removeClass('index-page--popup-open'); return false;
+	});
+});
+
+$(document).ready(function(){
 	$('.popup__close').click(function(){
 		$('.index-page--popup-open').removeClass('index-page--popup-open'); return false;
 	});
