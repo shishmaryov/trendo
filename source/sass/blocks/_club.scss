@@ -149,5 +149,13 @@
     background-color: #201D54;
     border: none;
     border-radius: 30px;
+
+    &:hover {
+      background-color: #2B276F;
+    }
+
+    &:active {
+      color: #CAC9DB;
+    }
   }
 }
