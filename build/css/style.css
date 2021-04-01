@@ -3963,13 +3963,12 @@ img {
   background-color: #F7D239;
   background-repeat: no-repeat;
   background-size: 50%;
-  background-position: 166px 155px; }
+  background-position: 200px 20px; }
   @media (min-width: 768px) {
     .lottery {
       background: #FFFFFF; } }
   .lottery__title {
     margin-top: 0;
-    margin-right: 150px;
     margin-left: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -3977,12 +3976,14 @@ img {
     font-size: 36px;
     font-size: 24px;
     text-align: center;
-    text-align: left; }
+    text-align: left;
+    max-width: 190px; }
     @media (min-width: 768px) {
       .lottery__title {
         font-size: 36px;
         text-align: center;
-        margin-right: 30px; } }
+        margin-right: 30px;
+        max-width: none; } }
     @media (min-width: 1024px) {
       .lottery__title {
         margin-right: 95px;
