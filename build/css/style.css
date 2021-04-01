@@ -3958,18 +3958,18 @@ img {
   margin-top: 75px;
   margin-right: auto;
   margin-left: auto;
-  background: url("../img/content-images/lottery.jpg");
+  background: url("../img/content-images/lottery-2.png");
   background-color: #F8F8F8;
-  background-color: #FFD610;
+  background-color: #F7D239;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: -100px 0px; }
+  background-size: 50%;
+  background-position: 166px 155px; }
   @media (min-width: 768px) {
     .lottery {
       background: #FFFFFF; } }
   .lottery__title {
     margin-top: 0;
-    margin-right: 30px;
+    margin-right: 150px;
     margin-left: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -3981,7 +3981,8 @@ img {
     @media (min-width: 768px) {
       .lottery__title {
         font-size: 36px;
-        text-align: center; } }
+        text-align: center;
+        margin-right: 30px; } }
     @media (min-width: 1024px) {
       .lottery__title {
         margin-right: 95px;
