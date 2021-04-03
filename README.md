@@ -10,10 +10,14 @@ Demo:
 
 
 
-Tehnologies:
+## Tehnologies 
+- HTML5 
+- SCSS  
+- Animate.css
+- JQuery
+- Javascript
+- Mobile first
 
-Languages: HTML5, CSS3, Javascript
-
-Libraries: jQuery, animate.css
-
-Approach: mobile first
+## Google page speed:
+Mobile: 92/100
+Desktop: 99/100

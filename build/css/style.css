@@ -3711,6 +3711,10 @@ img {
       height: 250px;
       background-color: #FFD610;
       border-radius: 100%; }
+      @media (min-width: 1024px) {
+        .promo__img-wrapper::before {
+          width: 355px;
+          height: 355px; } }
     .promo__img-wrapper::after {
       content: '';
       position: absolute;
@@ -3721,6 +3725,10 @@ img {
       height: 250px;
       background-color: #F7EBB3;
       border-radius: 100%; }
+      @media (min-width: 1024px) {
+        .promo__img-wrapper::after {
+          width: 355px;
+          height: 355px; } }
   .promo__img {
     z-index: 2;
     width: 300px;

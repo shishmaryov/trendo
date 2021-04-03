@@ -113,6 +113,11 @@
       height: 250px;
       background-color: #FFD610;
       border-radius: 100%;
+
+      @media(min-width: 1024px) {
+        width: 355px;
+        height: 355px;
+      }
     }
 
     &::after {
@@ -125,6 +130,11 @@
       height: 250px;
       background-color: #F7EBB3;
       border-radius: 100%;
+
+      @media(min-width: 1024px) {
+        width: 355px;
+        height: 355px;
+      }
     }
   }
 
